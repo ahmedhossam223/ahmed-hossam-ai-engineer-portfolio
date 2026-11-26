@@ -53,7 +53,7 @@ const projects = [
     tone: 'mint',
     status: 'Built project',
     note: 'Live application',
-    link: 'https://ai-english-teacher-gjfy96irctlehytdxem77y.streamlit.app/',
+    link: 'https://github.com/ahmedhossam223/AI-English-Teacher',
   },
   {
     number: '02',
@@ -407,7 +407,7 @@ function App() {
 
                       {project.link ? (
                         <a href={project.link} target="_blank" rel="noreferrer">
-                          View live project <ExternalLink size={15} />
+                          View on GitHub <ExternalLink size={15} />
                         </a>
                       ) : (
                         <span className="project-note">Project details available on request</span>
